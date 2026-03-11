@@ -10,6 +10,7 @@ public class StaticsHelper {
 
     static double CalculateAverage(int[] values) {
         return (double)values.Sum() / values.Length;
+        
     }
 }
 
