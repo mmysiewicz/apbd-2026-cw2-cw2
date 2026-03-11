@@ -15,5 +15,10 @@ public class StaticsHelper {
         return average;
         
     }
+
+    static int CalculateMax(int[] values)
+    {
+        return values.Max();
+    }
 }
 
