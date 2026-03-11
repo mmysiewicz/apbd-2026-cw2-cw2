@@ -7,5 +7,9 @@ public class StaticsHelper {
         string line = Console.ReadLine();
         Console.WriteLine(line);
     }
+
+    static double CalculateAverage(int[] values) {
+        return (double)values.Sum() / values.Length;
+    }
 }
 
