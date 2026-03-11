@@ -8,8 +8,11 @@ public class StaticsHelper {
         Console.WriteLine(line);
     }
 
-    static double CalculateAverage(int[] values) {
-        return (double)values.Sum() / values.Length;
+    static double CalculateAverage(int[] values)
+    {
+        double average = (double)values.Sum() / values.Length;
+        Console.WriteLine(average);
+        return average;
         
     }
 }
