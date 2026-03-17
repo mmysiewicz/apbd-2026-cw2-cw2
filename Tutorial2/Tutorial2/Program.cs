@@ -20,5 +20,10 @@ public class StaticsHelper {
     {
         return values.Max();
     }
+
+    static int CalculateMin(int[] values)
+    {
+        
+    }
 }
 
