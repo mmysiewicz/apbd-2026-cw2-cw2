@@ -12,6 +12,7 @@ public class StaticsHelper {
     {
         double average = (double)values.Sum() / values.Length;
         Console.WriteLine(average);
+        Console.WriteLine("Average: " + average);
         return average;
         
     }
