@@ -7,5 +7,18 @@ public class StaticsHelper {
         string line = Console.ReadLine();
         Console.WriteLine(line);
     }
+
+    static double CalculateAverage(int[] values)
+    {
+        double average = (double)values.Sum() / values.Length;
+        Console.WriteLine(average);
+        return average;
+        
+    }
+
+    static int CalculateMax(int[] values)
+    {
+        return values.Max();
+    }
 }
 
