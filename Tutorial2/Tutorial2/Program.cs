@@ -23,7 +23,7 @@ public class StaticsHelper {
 
     static int CalculateMin(int[] values)
     {
-        
+        return values.Min();
     }
 }
 
